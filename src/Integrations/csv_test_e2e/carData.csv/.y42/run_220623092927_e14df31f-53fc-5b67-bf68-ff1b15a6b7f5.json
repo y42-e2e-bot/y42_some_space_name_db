@@ -1,0 +1,51 @@
+{
+  "request_id": "220623092927_e14df31f-53fc-5b67-bf68-ff1b15a6b7f5",
+  "status": "pending",
+  "request": {
+    "target_credentials": "80255fcb-b48f-46f3-a75d-fbccec6200c3",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/file-upload/0.0.0/source.json#csv"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/file-upload/0.0.0/source.json#csv",
+      "content-type": "text/csv",
+      "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_somespacename_d7ab380d03b34d628560ace660ac0c59/o?uploadType=resumable&upload_id=ADPycdtghJl4dpgzC_2vHVz3vJ8k0VJvxlnPRjCHo4Li0qE_NB-0Y1Xf1QajYEeCSQRfH-IzHoZj71rIKS8R4sL9wqPWKn_Shc7r",
+      "originalName": "carData.csv",
+      "size": "34532",
+      "uri": "gs://y42_somespacename_d7ab380d03b34d628560ace660ac0c59/userUploads/v2/100/file-upload/5bff10be-e5ee-4b81-abe1-dbdcdefc9c9a",
+      "csv_options": {
+        "field_delimiter": ",",
+        "allow_quoted_new_lines": true,
+        "null_marker": "",
+        "ignore_unknown_values": false,
+        "encoding": "UTF-8",
+        "quote": "\"",
+        "skip_leading_rows": null
+      }
+    },
+    "created_at": "2022-06-23T09:29:27.091515+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/csv_test_e2e/carData.csv",
+        "id": "100:45ca1831-8356-452b-8a03-e157504c05a9",
+        "branch": "e2e_test_branch"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "y42-e2e-bot",
+        "repo": "y42_some_space_name_db",
+        "commit_sha": "ea91ce855b13b9fa6a923a7c068129d371f6383a"
+      }
+    },
+    "context": {
+      "company_id": 100,
+      "company_slug": "demoorg",
+      "triggered_by_type": "user",
+      "triggered_by_id": "10",
+      "trial": false
+    }
+  },
+  "created_at": "2022-06-23T09:29:27.091515+00:00",
+  "_signature": "X5K/suOuOsRkWNSfWQqmLbrqfDEUgjoqWBgGDv/23mXdPoNJs+pEjSNxGl+r5ASlP842IdsaNQEVqhtCqk0oDw=="
+}
